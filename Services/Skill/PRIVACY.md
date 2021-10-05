@@ -1,13 +1,13 @@
 # Skill (Competence) Service Privacy
 
-This documentation comes with no guarantee of completeness or correctness. Please report any issues (missing or wrong information) in the ILIAS issue tracker.
+This documentation does not warrant completeness or correctness. Please report any missing or wrong information using the <a href="https://mantis.ilias.de/">ILIAS issue tracker</a>.
 
 ## Data being stored
 
-- **Personal competences** selected by users (User ID / Skill ID).
-- **Competence profile assignments**. Competence management administrators can assign competence profiles to users directly or via roles and organisational units. Course administrators can assign competence profiles to the local member role. (Profile ID + User ID/Role ID/OrgUnit ID).
+- Personal competences are selected by accounts. Thus, the User ID and Skill ID are stored. This is done to record competence levels of accounts.
+- Accounts with "Edit Settings" permissions in Administration > Achievements > Competence Management > Competence Profiles > Assigned Roles and Users can assign competence profiles to accounts directly or via roles and organisational units. Accounts with "Edit Settings" permissions in courses and groups can assign to competence profiles to the local member role. (Grade permission needed? ##) In both cases Profile ID and User ID or Role ID or OrgUnit ID are stored. This is done to identify accounts with Competence Profiles. ($$)
 - Documents to prove personal skill level achievements: Users can **assign workspace files to single skill levels**. The documents are organised in the workspace service. The skill service stores the reference "user/document/skill level".
-- **Competence assessment/achievements** are aquired either by self evaluation, evaluation of others (e.g. 360° surveys) or measured by tools like tests. For all these cases the service stores user ID, competence level ID, timestamp of achievement, triggering object (e.g. test ID) and level of fulfillment (e.g. 60% of level 3).
+- Competence assessment/achievements are aquired either by self evaluation, evaluation of others (e.g. 360° surveys) or measured by tools like tests. For all these cases the service stores user ID, competence level ID, timestamp of achievement, triggering object (e.g. test ID) and level of fulfillment (e.g. 60% of level 3).
 
 
 ## Data presentation
