@@ -6,7 +6,7 @@ This documentation does not warrant completeness or correctness. Please report a
 
 - The HTML Learning Module component itself does not store any personal data.
 - The HTML Learning Module component employs the following services, please consult the respective privacy.mds 
-  - Reference to Learning Progress (Move to respective md: Learning Progress service stores data on access time speifically last time, number of accesses and the progress status specifically in progress, completed for each user accessing the object.) 
+  - Reference to Learning Progress (Move to respective md: Learning Progress service stores data on access time speifically last time, number of accesses and the progress status specifically in progress, completed for each user accessing the object.) (## general definitions necesssary: specify reference, data flow direction ; requires developers expertise to define the relation between the modules ##)
   - Reference to Metadata (Move to respective md: Metadata  service contains two branches: LOM and custom metdata. The LOM offers storing personal dates like author. Custom metadata do contain user-created metadata sets which may contain personal dates, which mus be individually checked in the global administration.)
   - Reference to Permission (Move to respective md: The account which created the very object is stored as it's owner, creation and update timestamps for the object. The permission service stores which users / user roles have what kind of access to the object.) 
 
@@ -28,7 +28,7 @@ This documentation does not warrant completeness or correctness. Please report a
 
 - The HTML Learning Module component itself does not export any personal data.
 - Reference to Learning Progress (Move to respective md: Personal data can be exported from the Learning Progress service.) 
-- Reference to Metadata (Move to respective md: Metadata  service exports metadata like author along with the compnent itself.)
+- Reference to Metadata (Move to respective md: Metadata  service exports metadata like author along with the component itself.)
 
 
 
